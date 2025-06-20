@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UFT-8">
+        <title>Minecraft Movie</title>
+        <style>
+            body {
+                background-color: black;
+            }
+
+            h1 {
+                color: white;
+                font-family: Comic Sans MS;
+            }
+        </style>
+    </head>
+    <body>
+        <h1 id="chickenh1">SCREAM CHICKEN JOCKEY AT: 1:10:06</h1>
+        <button onclick="deleteChickenStuff()" id="chickenbutton">Click me to say bye bye to chicken jockey message</button>
+        <iframe src="https://drive.google.com/file/d/1Oppg2lJlwwqKmPK8z4HNcdeiEyf6GaHq/preview" width="1390" height="660" allow="autoplay"></iframe>
+    </body>
+    <script>
+        function deleteChickenStuff() {
+        const h1 = document.getElementById("chickenh1");
+        const btn = document.getElementById("chickenbutton");
+
+        if (h1) h1.remove();
+        if (btn) btn.remove();
+        }
+    </script>
+</html>
